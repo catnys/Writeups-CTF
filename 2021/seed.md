@@ -135,7 +135,7 @@ Incorrect: 0.07384192274198853
 Incorrect: 0.1448081453121044
 Good job <3
 ```
-The problem main problem is that the seed is based on time and rounded to the nearest integer:
+The problem main is that the seed is based on time and rounded to the nearest integer:
 ```python=
 def seed():
     return round(time.time())
