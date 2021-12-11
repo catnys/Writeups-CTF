@@ -27,7 +27,7 @@ random.seed(a, version)
 The random number generator needs a number to start with (a seed value), to be able to generate a random number.
 
 **Example 1:**
-```python=
+```py
 # random module is imported
 import random 
 for i in range(5):
@@ -136,7 +136,7 @@ Incorrect: 0.1448081453121044
 Good job <3
 ```
 The problem main is that the seed is based on time and rounded to the nearest integer:
-```python=
+```py
 def seed():
     return round(time.time())
 ```
@@ -145,7 +145,7 @@ def seed():
 ```
 $ diff seed.py solve.py
 ```
-```python=
+```py
 while True:
 s = seed()
 
