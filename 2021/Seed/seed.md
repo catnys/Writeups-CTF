@@ -48,7 +48,7 @@ for i in range(5):
 ```
 
 **Example 2:**
-```python=
+```py
 # importing random module
 import random
   
@@ -87,7 +87,7 @@ Here is further Examples in CTF's.
 #### **Review**
 
 `seed.py` generated the flag by creating a bunch of sha256 hashes in a loop and then writing out the one with b9ff3ebf in the string as the flag:
-```python=
+```py
 def seed():
     return round(time.time())
 
