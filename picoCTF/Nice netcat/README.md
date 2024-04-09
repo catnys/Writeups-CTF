@@ -1,7 +1,5 @@
 # Nice netcat...
 
----
-
 Category:`General Skills`
 Author: `SYREAL`
 
