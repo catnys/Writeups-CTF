@@ -153,7 +153,6 @@ s = seed()
 while s > 0:
 s = s - 1
 ```
-
 ```
 $ python3 ./solve.py
 $ cat flag 
